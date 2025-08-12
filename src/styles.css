@@ -28,7 +28,16 @@ body{
     transform-origin: 100px;
     transition: .5s;
     transition-delay : calc(.1s * var(--i));
-    transform:  rotate(0deg) translateX(100px);
+    transform:  rotate(0deg) translateX(80px);
+}
+
+.menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
 }
 
 .menu.active li {
