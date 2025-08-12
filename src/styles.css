@@ -15,7 +15,7 @@ body{
     position: relative;
     width: 200px;
     height: 200px;
-    background: #0f0 ;
+    /* background: #0f0 ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,7 @@ body{
     transform-origin: 100px;
     transition: .5s;
     transition-delay : calc(.1s * var(--i));
+    transform:  rotate(0deg) translateX(100px);
 }
 
 .menu.active li {
