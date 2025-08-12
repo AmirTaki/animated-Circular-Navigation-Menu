@@ -27,6 +27,7 @@ body{
     list-style: none;
     transform-origin: 100px;
     transition: .5s;
+    transition-delay : calc(.1s * var(--i));
 }
 
 .menu.active li {
