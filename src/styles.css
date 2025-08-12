@@ -24,5 +24,15 @@ body{
 .menu li {
     position: absolute;
     list-style: none;
-    
+
+}
+.toggle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
 }
